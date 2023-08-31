@@ -9,7 +9,7 @@ import geocoder
 def main():
 
     with st.sidebar:
-      st.image("/content/iss.gif")
+      st.image("https://github.com/vikasharma005/ISS-Tracker/blob/main/iss.png")
       st.title("ISS Location Tracker")
 
     # Fetch and display astronaut data
@@ -50,7 +50,7 @@ def create_map(lat, lon):
     m = folium.Map(location=[lat, lon], zoom_start=2)
     
     # Add the ISS icon as a marker
-    icon = folium.CustomIcon(icon_image="/content/iss.png", icon_size=(50, 50))
+    icon = folium.CustomIcon(icon_image="https://github.com/vikasharma005/ISS-Tracker/blob/main/iss.png", icon_size=(50, 50))
     folium.Marker([lat, lon], icon=icon, popup="ISS").add_to(m)
 
     return m
