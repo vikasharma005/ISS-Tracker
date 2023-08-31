@@ -33,7 +33,7 @@ The ISS Location Tracker app fetches real-time data about the ISS location and t
 
 ## Screenshots
 
-![App Screenshot](/screenshots/app_screenshot.png)
+![App Screenshot](https://github.com/vikasharma005/ISS-Tracker/blob/main/demo.gif)
 
 
 ## Author
